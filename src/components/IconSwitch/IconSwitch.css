@@ -1,0 +1,10 @@
+.IconSwitch {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.material-icons {
+    font-size: 40px;
+    color: #696969;
+    cursor: pointer;
+}
