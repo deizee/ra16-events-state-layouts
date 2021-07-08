@@ -46,8 +46,8 @@ const Store = (props) => {
 
     return (
         <div className="Store">
-            <IconSwitch icon={isListView ? 'view_module' : 'view_list'} onSwitch={onSwitchListHandler}/>
-            {isListView ? <ListView products={products}/> : <CardView products={products}/>}
+            <IconSwitch icon={isListView ? 'view_module' : 'view_list'} onSwitch={onSwitchListHandler} />
+            {isListView ? <ListView products={products} /> : <CardView products={products} />}
         </div>
     )
 }
